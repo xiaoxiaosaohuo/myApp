@@ -2,7 +2,7 @@ import { put, take, takeLatest } from 'redux-saga/effects';
 import { NavigationActions } from 'react-navigation'
 import { LoginTypes, LogoutTypes,
   LoginActions, LogoutActions
-} from '../redux/LoginRedux';
+} from '../redux/Login';
 import { API, fetch } from '../api';
 import { routes } from '../config';
 
